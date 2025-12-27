@@ -1,0 +1,51 @@
+h1{
+    color: #d47f0f;
+    font-weight: 200;
+    font-size: 35px;
+    font-style:initial;
+}
+body {
+    background: linear-gradient(to right, #d47f0f, #004e92);
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    background-image: linear-gradient(to right, lightblue, #e0f7ff);
+    color: black;
+}
+
+
+#highlight {
+    background-image: linear-gradient(to right, #000000, #2a5298);
+    color: white;
+    font-weight: bold;
+}
+*{
+    text-align: center;
+    font-style: inherit;
+}
+  @keyframes example {
+      0% {
+          background-color: aliceblue;
+      }
+
+      25% {
+          background-color: red;
+      }
+
+      50% {
+          background-color: blueviolet;
+      }
+
+      100% {
+          background-color: yellow;
+      }
+  }
+
+  #ani {
+      height: 100px;
+      width: 100px;
+      animation-name: example;
+      animation-duration: 5s;
+
+  }
